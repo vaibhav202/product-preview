@@ -33,10 +33,13 @@ body{
     overflow-x: hidden;
     overflow-y: auto;
 }
-.desktop-image{
-    display: block;
+img{
+    object-fit: cover;
     max-width: 100%;
     max-height: 100%;
+}
+.desktop-image{
+    display: block;
 }
 .mobile-image{
     display: none;
@@ -103,8 +106,8 @@ svg{
 }
 .attribution{
     margin-bottom: 1em;
-    font-family: Fraunces, serif;
-    font-weight: 700;
+    font-family: Montserrat, serif;
+    font-weight: 500;
     font-size: 14px;
     text-align: center;
     color: var(--Dark-grayish-blue);
@@ -125,8 +128,6 @@ svg{
     }
     .mobile-image{
         display: block;
-        max-width: 100%;
-        max-height: 100%;
     }
     .flex-content{
         height: 100%;
